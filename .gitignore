@@ -9,5 +9,14 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
-
-upgrade-test* 
+upgrade-test*
+__pycache__/
+*.pyc
+dbt/target/
+dbt/dbt_packages/
+logs/
+gcp/service_account.json
+dbt/.user.yml
+.airflowignore
+.vscode/
+.idea/
